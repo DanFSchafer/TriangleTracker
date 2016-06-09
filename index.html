@@ -12,22 +12,25 @@
     <div class="container">
       <h1>Tell us 3 lengths for a triangle and we will tell you which kind it is!</h1>
       <div id="blanks">
-        <form>
-          <div class="form-group">
-            <label for="sideA">Side A of Triangle</label>
-            <input id="sideA" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="sideB">Side B of Triangle</label>
-            <input id="sideB" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="sideC">Side C of Triangle</label>
-            <input id="sideC" class="form-control" type="text">
-          </div>
 
-          <button type="submit" class="btn">GO!!</button>
-        </form>
+          <form>
+            <div class="form-group col-md-4">
+              <label for="sideA">Side A of Triangle</label>
+              <input id="sideA" class="form-control" type="text">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="sideB">Side B of Triangle</label>
+              <input id="sideB" class="form-control" type="text">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="sideC">Side C of Triangle</label>
+              <input id="sideC" class="form-control" type="text">
+            </div>
+            <div class="centered">
+            <button type="submit" class="btn">GO!!</button>
+            </div>
+          </form>
+
         <br>
         <div id="output"></div>
         <br>
